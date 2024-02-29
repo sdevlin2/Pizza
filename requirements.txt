@@ -1,0 +1,5 @@
+asgiref
+Django
+django-debug-toolbar
+sqlparse
+tzdata
