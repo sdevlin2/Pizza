@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Maker</title>
+
+    <link rel="stylesheet" href="{% static 'PizzaMaker/style.css' %}" type="text/css">
+</head>
+
+<body>
+
+    <h1>Pizzas</h1>
+    <form>
+        <a href="./newpizza.html">
+            <input type="button" value="Make a New Pizza">
+        </a> <br>
+        <a href="./changepizza.html">
+            <input type="button" value="View and Modify Existing Pizzas">
+        </a> <br>
+        <a href="./removepizza.html">
+            <input type="button" value="Remove a Pizza">
+        </a>
+    </form>
+
+    <h1>Toppings</h1>
+    <form>
+        <a href="">
+            <input type="button" value="Make a New Topping">
+        </a> <br>
+        <a href="">
+            <input type="button" value="View and Modify Existing Toppings">
+        </a> <br>
+        <a href="">
+            <input type="button" value="Remove a Topping">
+        </a>
+    </form>
+
+</body>
+
+</html>

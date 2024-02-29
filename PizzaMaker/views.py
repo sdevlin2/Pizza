@@ -1,8 +1,10 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
+# from .models import Question
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the pizza index.")
+     return render(request, "PizzaMaker/index.html")
 
 def toppings(request):
     return HttpResponse("These are the toppings.")
